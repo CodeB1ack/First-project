@@ -23,3 +23,7 @@ body {
  background-color: rgb(27, 41, 77);
  color: rgb(255, 255, 255);
 }
+
+img {
+ border-radius: 5%;
+}
