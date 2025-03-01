@@ -14,4 +14,7 @@ section {
  margin: 75px;
 }
 
-
+body {
+ background-color: rgb(27, 41, 77);
+ color: rgb(255, 255, 255);
+}
