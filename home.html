@@ -94,14 +94,16 @@
         <div class="col pt-5">
           <h3 id="Newsletter">Newsletter</h3>
         </div>
+        <form action="formspree.io" method="get">
         <div class="col">
-            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-            <input type="email" class="form-control" placeholder="Email" aria-label="Email">
-            <textarea name="Comment" id="Comment" placeholder="Tell us about yourself"></textarea>
+            <input type="text" class="form-control" placeholder="First Name" aria-label="First name" style="margin: 10px;" required>
+            <input type="email" class="form-control" placeholder="Email" aria-label="Email" style="margin: 10px;" required>
+            <textarea name="Comment" id="Comment" placeholder="Tell us about yourself" style="margin: 10px;"></textarea>
         </div>
         <div class="col pt-5">
-            <button type="button" class="btn btn-dark">Subscribe</button>
+            <button type="submit" class="btn btn-dark">Subscribe</button>
         </div>
+    </form>
       </div>
 </div>
 </Section>
